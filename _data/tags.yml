@@ -1,0 +1,24 @@
+thoughts:
+  name: thoughts
+  description: What is going on in my head.
+  cover: https://images.unsplash.com/photo-1483022259565-d5f53b5fbb15?w=1080
+
+speeches:
+  name: speeches
+  description: Some of the greatest words ever spoken.
+  cover: https://demo.ghost.io/content/images/2015/03/cover1.jpg
+
+fiction:
+  name: fiction
+  description: False
+  cover: False
+
+fables:
+  name: fables
+  description: A series of short stories that make you think.
+  cover: https://user-images.githubusercontent.com/9758779/62439176-80ba5180-b77d-11e9-825b-5d7a2d3fb855.jpg
+
+getting-started:
+  name: getting-started
+  description: False
+  cover: False

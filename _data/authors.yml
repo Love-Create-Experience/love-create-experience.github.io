@@ -1,0 +1,20 @@
+adam:
+  username: adam
+  name: Adam Liu
+  url_full: https://adamliu.win
+  url: adamliu.win
+  bio: Founder of Love Create Experience
+  picture: https://user-images.githubusercontent.com/9758779/62410753-24402080-b61d-11e9-95dd-e7313c61647e.jpg
+  facebook: adamhleo
+  twitter: adamhleo
+  cover: https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?w=1080
+ghost:
+  username: ghost
+  name: Ghost
+  url_full: http://jekyller.github.io/jasper2/
+  url: jekyller.github.io/jasper2
+  bio: The professional publishing platform
+  picture: https://user-images.githubusercontent.com/9758779/62439180-82841500-b77d-11e9-8bec-1a7530147525.png
+  facebook: ghost
+  twitter: tryghost
+  cover: https://user-images.githubusercontent.com/9758779/62410813-d0820700-b61d-11e9-90db-6e41764bfa0a.jpeg

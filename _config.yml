@@ -1,0 +1,100 @@
+# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: 'en-uk'
+words_per_minute: 200
+
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+url: "https://love-create-experience.github.io"
+baseurl: ""
+
+# Website info
+title: "Love, Create, Experience."
+description: "Create More Things. Experience More Life. Love, Instead of Hate."
+cover: https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80
+logo: https://love-create-experience.s3.amazonaws.com/imgs/logo.png
+logo_dark: https://user-images.githubusercontent.com/9758779/62438512-587d2380-b77a-11e9-8310-61eb9a765701.png
+favicon: https://love-create-experience.s3.amazonaws.com/imgs/favicon.png
+production_url: https://love-create-experience.github.io
+source_url: https://love-create-experience.github.io
+CNAME: 
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+# twitter: adamhleo # replace by your username
+# facebook: adamhleo # replace by your username
+
+# Disqus
+disqus: false
+# disqus_shortname: adamliu-win # replace with your disqus username
+
+# Google Analytics
+google_analytics:  # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-seo-tag]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: love-create-experience
+repo: love-create-experience.github.io
+branch: master
+# relative_source: ../jasper2/
+# destination: ../jasper2-pages/
+production_url: https://love-create-experience.github.io
+source_url: https://love-create-experience.github.io
+CNAME: 
+
+exclude:
+  - ai
+  - books
+  - /assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*
