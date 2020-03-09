@@ -33,7 +33,7 @@ disqus: false
 # disqus_shortname: adamliu-win # replace with your disqus username
 
 # Google Analytics
-google_analytics:  # replace with your GA tracking identifier
+google_analytics: "UA-145071465-8" # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
