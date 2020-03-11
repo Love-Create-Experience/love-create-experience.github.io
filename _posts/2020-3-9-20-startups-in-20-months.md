@@ -19,6 +19,6 @@ And here's the a list of my startups (actively updating):
 
 # 🛠⚙️💪 Useful Tools
 ### Useful Tools is a platform for you to find useful products.
-[Link](http://finduseful.tools/)
+[Site](http://finduseful.tools/) | [Story Behind It](/useful-tools)
 
 
